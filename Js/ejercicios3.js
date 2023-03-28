@@ -18,8 +18,8 @@ const obtenerObjeto = (Objeto) => {
 };
 console.log(
     obtenerObjeto({
-        name: "Maria Paula",
-        age: "21",
+        name: "Sergio Andres",
+        age: "20",
         country:"Holanda",
     })
 );
