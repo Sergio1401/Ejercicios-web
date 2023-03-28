@@ -87,7 +87,7 @@ z-index: 99;
 /* Inicio de sesion */
 
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,.1)), url(/img/fondo.jpg) no-repeat center center;
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,.1)), url(/portafolio/img/fondo.jpg) no-repeat center center;
 background-size: cover;
 height: 60vw;
 color: #fff;
@@ -837,3 +837,8 @@ nav.responsive ul li{
         }
     }
 
+@media (min-width: 900px) {
+    .nav-responsive{
+        display: none;
+    }
+}
