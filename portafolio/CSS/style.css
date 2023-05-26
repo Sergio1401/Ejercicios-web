@@ -88,10 +88,10 @@ z-index: 99;
 
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,.1)), url(/portafolio/img/fondo.jpg) no-repeat center center;
-background-size: cover;
-height: 60vw;
-color: #fff;
-display: flex;
+    background-size: cover;
+    height: 60vw;
+    color: #fff;
+    display: flex;
 align-items: center;
 }
 

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Caveat', cursive;
+}
+
+body {
+    background-image: url("/piedraPapelTijera/img/fondo.jpg");
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding-left: 300px;
+    padding-top: 20px;
+}
+
+.container-header {
+    width: 700px;
+    height: 530px;
+    background-color: rgb(227, 245, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: solid 1px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.titulo {
+    height: 90px;
+}
+
+.titulo h1 {
+    width: 420px;
+    height: 30px;
+    color: green;
+    font-size: 40px;
+}
+
+.titulo p {
+    width: 420px;
+    height: 10px;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.opciones {
+    width: 320px;
+    height: 100px;
+    display: flex;
+    padding: 50px;
+}
+
+.opciones img {
+    width: 60px;
+}
+
+.opciones button {
+    width:80px;
+    height: 80px;
+    border: solid 1px;
+    border-radius: 50px;
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 2px black;
+}
+
+button:active {
+    outline: none;
+    box-shadow: none;
+    top: 10px;
+    left: 2px;
+}
+
+.btn-papel {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.elegir {
+    display: flex;
+}
+
+.maquina {
+    padding-left: 110px;
+}
+
+.resultado {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.puntaje {
+    width: 480px;
+    height: 100px;
+    border: 0.5px solid;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.puntaje h2 {
+    color: rgb(255, 115, 0);
+    width: 480px;
+    height: 10px;
+
+}
+
+.resultados {
+    display: flex;
+    width: 480px;
+    height: 30px;
+    text-align: center;
+}
