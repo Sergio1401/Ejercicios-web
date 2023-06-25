@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    font-family: "poppins", sans-self;
+}
+
+body {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(80, 81, 134);
+}
+
+.container {
+    width: 100vmin;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-header h1{
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(173, 173, 173);
+    color: rgb(0, 0, 148);
+}
+
+#buscar {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#buscar  input:focus{
+    border: 2px solid rgb(231, 7, 7);
+}
+
+.icono {
+    position: absolute;
+    font-size: 15px;
+    color: rgb(0, 0, 148);
+    left: 10px;
+}
+
+.container-header input {
+    position: relative;
+    width: 380px;
+    height: 30px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: solid 1px grey;
+}
+
+.container-header .enter {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.data-wrapper{
+margin-bottom: 1em;
+letter-spacing: 0.3px;
+}
+
+.resultado {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.resultado h4 {
+    color: rgb(0, 0, 148);
+}
+
+.resultado p {
+    font-size: 14px;
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: white;
+    background: rgb(66, 66, 116);
+}
+
+.stopWatch {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/cronometro/img/fondo.jpg);
+    max-width: 600px;
+    border-radius: 40px;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    margin: 150px auto 0;
+    text-align: center;
+    color: white;
+    box-shadow: 30px 30px 40px black;
+    border: solid 1px white;
+}
+
+.stopWatch h1 {
+    font-size: 80px;
+    margin: 50px 0;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stopWatch img {
+    width: 60px;
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+.stopWatch img:nth-child(2) {
+    width: 90px;
+}
